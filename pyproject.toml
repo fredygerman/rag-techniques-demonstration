@@ -1,0 +1,17 @@
+[project]
+name = "rag-techniques-demonstration"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "asyncio>=3.4.3",
+    "frontend",
+    "langchain-community>=0.3.3",
+    "langchain-openai>=0.2.3",
+    "langchain>=0.3.4",
+    "pymupdf>=1.24.11",
+    "python-dotenv>=1.0.1",
+    "rank-bm25>=0.2.2",
+    "split>=0.4",
+]
